@@ -6,7 +6,6 @@ class Book {
     this.publishdate = publishdate;
   }
 }
-let i = 0;
 
 const booksData = [];
 class Display {
@@ -348,9 +347,7 @@ function handleInputChange() {
 
   displayFilteredBooks(filteredBooks);
   searchInput.value = '';
-  console.log(
-    'rzdxfcgvjhhhhhhhhhgddeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
-  );
+  console.log('wgdwudgwgdwshgdwusdgudyg');
 }
 
 function displayFilteredBooks(filteredBooks) {
