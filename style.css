@@ -1,0 +1,44 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.page-link {
+  margin: 0 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.pagination-links {
+  display: flex;
+  align-items: center;
+}
+
+.pagination-link {
+  margin: 0 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.pagination-link.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pagination-link:hover {
+  background-color: #f5f5f5;
+}
+
+.custom-dialog-width {
+  max-width: 800px; /* Set your desired width value */
+  width: 100%;
+}
